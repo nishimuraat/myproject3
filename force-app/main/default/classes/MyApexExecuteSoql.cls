@@ -17,8 +17,6 @@ public with sharing class MyApexExecuteSoql {
             listAcc.add(acc);
         }
 
-        system.debug(iterator);
-
         return listAcc;
     }
 }
