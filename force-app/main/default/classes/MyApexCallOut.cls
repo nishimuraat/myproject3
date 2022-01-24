@@ -1,6 +1,5 @@
 public class MyApexCallOut
 {
-  @AuraEnabled
     public static Map<String,Object> getCalloutResponseContents()
     {
         Http h = new Http();
